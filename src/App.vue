@@ -2,7 +2,7 @@
   <img class="absolute -left-[800px] -top-[750px]" src="./assets/img/Rectangle.png" />
   <div class="container mx-auto relative text-white">
     <Navbar />
-    <div class="my-64 flex justify-center px-16 lg:px-64">
+    <div class="my-72 flex justify-center px-16 lg:px-64">
       <div class="w-full flex justify-center gap-5 flex-col text-center">
         <h1 class="text-7xl">Calvin <span
             class="font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#77009F] to-[#00C3FF] bg-[length:400%_400%]">LAMBERT</span>
@@ -21,6 +21,46 @@
           <button class="links rounded-full bg-white p-2">
             <img class="w-6 h-6" src="./assets/img/email.png" alt="github">
           </button>
+          <button class="links rounded-full bg-white p-2">
+            <img class="w-6 h-6" src="./assets/img/linkedIn.png" alt="github">
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="skills" class="mt-12 h-36 relative">
+      <div
+        class="absolute top-0 right-0 h-full w-[20px] sm:w-[50px] md:w-[100px] lg:w-[200px] bg-gradient-to-l from-[#161616] via-[#161616]/60 to-transparent z-[1]" />
+      <div
+        class="absolute top-0 right-left-0 h-full w-[20px] sm:w-[50px] md:w-[100px] lg:w-[200px] bg-gradient-to-l to-[#161616] via-[#161616]/60 from-transparent z-[1]" />
+      <div class="w-full h-full overflow-hidden">
+        <div class="flex w-[1800%]">
+          <div class="flex items-center gap-40 slider pr-40">
+            <img class="h-20" src="./assets/img/techno/vuejs.png" alt="vuejs">
+            <img class="h-20" src="./assets/img/techno/nuxt.png" alt="nuxt">
+            <img class="h-20" src="./assets/img/techno/pinia.svg" alt="pinia">
+            <img class="h-20" src="./assets/img/techno/vuex.png" alt="vuex">
+            <img class="h-16" src="./assets/img/techno/tailwind.png" alt="tailwind">
+            <img class="h-20" src="./assets/img/techno/figma.svg" alt="figma">
+            <img class="h-20" src="./assets/img/techno/git.png" alt="git">
+          </div>
+          <div class="flex items-center gap-40 slider pr-40">
+            <img class="h-20" src="./assets/img/techno/vuejs.png" alt="vuejs">
+            <img class="h-20" src="./assets/img/techno/nuxt.png" alt="nuxt">
+            <img class="h-20" src="./assets/img/techno/pinia.svg" alt="pinia">
+            <img class="h-20" src="./assets/img/techno/vuex.png" alt="vuex">
+            <img class="h-16" src="./assets/img/techno/tailwind.png" alt="tailwind">
+            <img class="h-20" src="./assets/img/techno/figma.svg" alt="figma">
+            <img class="h-20" src="./assets/img/techno/git.png" alt="git">
+          </div>
+          <div class="flex items-center gap-40 slider pr-40">
+            <img class="h-20" src="./assets/img/techno/vuejs.png" alt="vuejs">
+            <img class="h-20" src="./assets/img/techno/nuxt.png" alt="nuxt">
+            <img class="h-20" src="./assets/img/techno/pinia.svg" alt="pinia">
+            <img class="h-20" src="./assets/img/techno/vuex.png" alt="vuex">
+            <img class="h-16" src="./assets/img/techno/tailwind.png" alt="tailwind">
+            <img class="h-20" src="./assets/img/techno/figma.svg" alt="figma">
+            <img class="h-20" src="./assets/img/techno/git.png" alt="git">
+          </div>
         </div>
       </div>
     </div>
@@ -42,40 +82,6 @@
         <p class="mt-3">I also have skills in UI/UX design. I use software such as Lunacy / Figma and I have also in my
           past used software such as Illustrator and Photoshop.</p>
         <img class="h-32 absolute -bottom-5 -right-5 opacity-25" src="./assets/img/figma.svg" alt="js">
-      </div>
-    </div>
-    <div class="mt-12 h-36 relative">
-      <div
-        class="absolute top-0 right-0 h-full w-[20px] sm:w-[50px] md:w-[100px] lg:w-[200px] bg-gradient-to-l from-[#161616] via-[#161616]/60 to-transparent z-[1]" />
-      <div
-        class="absolute top-0 right-left-0 h-full w-[20px] sm:w-[50px] md:w-[100px] lg:w-[200px] bg-gradient-to-l to-[#161616] via-[#161616]/60 from-transparent z-[1]" />
-      <div class="w-full h-full overflow-hidden">
-        <div class="flex w-[1800%]">
-          <div class="flex items-center gap-40 slider pr-40">
-            <img class="h-20" src="./assets/img/techno/git.png" alt="git">
-            <img class="h-16" src="./assets/img/techno/tailwind.png" alt="tailwind">
-            <img class="h-20" src="./assets/img/techno/vuejs.png" alt="vuejs">
-            <img class="h-20" src="./assets/img/techno/pinia.svg" alt="pinia">
-            <img class="h-20" src="./assets/img/techno/nuxt.png" alt="nuxt">
-            <img class="h-20" src="./assets/img/techno/figma.svg" alt="figma">
-          </div>
-          <div class="flex items-center gap-40 slider pr-40">
-            <img class="h-20" src="./assets/img/techno/git.png" alt="git">
-            <img class="h-16" src="./assets/img/techno/tailwind.png" alt="tailwind">
-            <img class="h-20" src="./assets/img/techno/vuejs.png" alt="vuejs">
-            <img class="h-20" src="./assets/img/techno/pinia.svg" alt="pinia">
-            <img class="h-20" src="./assets/img/techno/nuxt.png" alt="nuxt">
-            <img class="h-20" src="./assets/img/techno/figma.svg" alt="figma">
-          </div>
-          <div class="flex items-center gap-40 slider pr-40">
-            <img class="h-20" src="./assets/img/techno/git.png" alt="git">
-            <img class="h-16" src="./assets/img/techno/tailwind.png" alt="tailwind">
-            <img class="h-20" src="./assets/img/techno/vuejs.png" alt="vuejs">
-            <img class="h-20" src="./assets/img/techno/pinia.svg" alt="pinia">
-            <img class="h-20" src="./assets/img/techno/nuxt.png" alt="nuxt">
-            <img class="h-20" src="./assets/img/techno/figma.svg" alt="figma">
-          </div>
-        </div>
       </div>
     </div>
   </div>
