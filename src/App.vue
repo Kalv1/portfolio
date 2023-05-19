@@ -27,7 +27,7 @@
         </div>
       </div>
     </div>
-    <div id="skills" class="mt-12 h-36 relative">
+    <div id="skills" class="my-12 h-36 relative z-[-1]">
       <div
         class="absolute top-0 right-0 h-full w-[20px] sm:w-[50px] md:w-[100px] lg:w-[200px] bg-gradient-to-l from-[#161616] via-[#161616]/60 to-transparent z-[1]" />
       <div
@@ -67,31 +67,31 @@
         </div>
       </div>
     </div>
-    <div class="w-full grid grid-cols-1 md:grid-cols-3 gap-10">
-      <div class="bg-[#18181b] w-full p-8 border border-px border-gray-800 rounded-md cards overflow-hidden relative">
+    <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+      <Card>
         <h2 class="text-xl font-bold">Front-end</h2>
         <p class="mt-3 tracking-wide leading-relaxed">I can build interfaces with VueJS and TailwindCSS. I also master
           different UI framework such as
           Ant Design and Buefy. I also have some experience with ReactJS!</p>
         <img class="h-32 absolute -bottom-5 -right-5 opacity-25" src="./assets/img/js.png" alt="js">
-      </div>
-      <div class="bg-[#18181b] w-full p-8 border border-px border-gray-800 rounded-md cards overflow-hidden relative">
+      </Card>
+      <Card>
         <h2 class="text-xl font-bold">Back-end</h2>
         <p class="mt-3 tracking-wide leading-relaxed">I have notions in back-end thanks to the studies I followed. I can
           build backend applications via
           Laravel and I also experiment on NestJS.</p>
         <img class="h-48 absolute -bottom-12 -right-10 opacity-25" src="./assets/img/php.png" alt="js">
-      </div>
-      <div class="bg-[#18181b] w-full p-8 border border-px border-gray-800 rounded-md cards overflow-hidden relative">
+      </Card>
+      <Card>
         <h2 class="text-xl font-bold">UI/UX Design</h2>
         <p class="mt-3 tracking-wide leading-relaxed">I also have skills in UI/UX design. I use software such as Lunacy /
           Figma and I have also in my
           past used software such as Illustrator and Photoshop.</p>
         <img class="h-32 absolute -bottom-5 -right-5 opacity-25" src="./assets/img/figma.svg" alt="js">
-      </div>
+      </Card>
     </div>
     <p class="text-3xl font-bold mt-72 mb-5">Experiences<span>.</span></p>
-    <div class="grid grid-cols-3 gap-10">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
       <Card>
         <div class="flex gap-5 items-center">
           <img class="h-10" src="./assets/img/company/apitech.png" alt="">
@@ -100,7 +100,7 @@
             <p class="border-gray-800 text-lg font-bold">Intern fullstack developer</p>
           </div>
         </div>
-        <p class="my-3">
+        <p class="my-3 tracking-wide leading-relaxed">
           Creation and integration of web pages<br>
           Maintenance of existing pages<br>
           Collaboration on a design system
@@ -114,13 +114,19 @@
             <p class="border-gray-800 text-lg font-bold">Frontend developer</p>
           </div>
         </div>
-        <p class="my-3">
+        <p class="my-3 tracking-wide">
           Made UI/UX for internal tools<br>
+          Creation and integration of web pages<br>
+          Learning 3D & working with DevOps tools
         </p>
       </Card>
     </div>
   </div>
-</template>s
+  <div class="h-[1px] bg-gray-800 mt-10"/>
+  <div class="py-10 container mx-auto bg-[#161616] text-white text-center">
+    <p>Made with ❤️ by Calvin.</p>
+  </div>
+</template>
 <script setup>
 import Navbar from './components/Navbar.vue'
 import Card from './components/Card.vue'
@@ -195,4 +201,5 @@ onMounted(() => {
   to {
     transform: translateX(-100%);
   }
-}</style>
+}
+</style>
