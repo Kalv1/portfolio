@@ -4,8 +4,8 @@
     <Navbar />
     <div class="my-72 flex justify-center px-16 lg:px-64">
       <div class="w-full flex justify-center gap-5 flex-col text-center">
-        <h1 class="text-7xl">Calvin <span
-            class="font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#77009F] to-[#00C3FF] bg-[length:400%_400%]">LAMBERT</span>
+        <h1 class="text-7xl font-extrabold">Calvin <span
+            class="font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-[#77009F] to-[#00C3FF] bg-[length:400%_400%]">LAMBERT</span>
         </h1>
         <p class="text-2xl font-regular leading-relaxed">Hi! I am a 22 years old front-end developer mainly
           focused on
@@ -42,6 +42,7 @@
             <img class="h-16" src="./assets/img/techno/tailwind.png" alt="tailwind">
             <img class="h-20" src="./assets/img/techno/figma.svg" alt="figma">
             <img class="h-20" src="./assets/img/techno/git.png" alt="git">
+            <img class="h-20" src="./assets/img/techno/laravel.svg" alt="laravel">
           </div>
           <div class="flex items-center gap-40 slider pr-40">
             <img class="h-20" src="./assets/img/techno/vuejs.png" alt="vuejs">
@@ -51,6 +52,7 @@
             <img class="h-16" src="./assets/img/techno/tailwind.png" alt="tailwind">
             <img class="h-20" src="./assets/img/techno/figma.svg" alt="figma">
             <img class="h-20" src="./assets/img/techno/git.png" alt="git">
+            <img class="h-20" src="./assets/img/techno/laravel.svg" alt="laravel">
           </div>
           <div class="flex items-center gap-40 slider pr-40">
             <img class="h-20" src="./assets/img/techno/vuejs.png" alt="vuejs">
@@ -60,34 +62,68 @@
             <img class="h-16" src="./assets/img/techno/tailwind.png" alt="tailwind">
             <img class="h-20" src="./assets/img/techno/figma.svg" alt="figma">
             <img class="h-20" src="./assets/img/techno/git.png" alt="git">
+            <img class="h-20" src="./assets/img/techno/laravel.svg" alt="laravel">
           </div>
         </div>
       </div>
     </div>
-    <div class="w-full grid grid-cols-1 md:grid-cols-3 gap-5">
+    <div class="w-full grid grid-cols-1 md:grid-cols-3 gap-10">
       <div class="bg-[#18181b] w-full p-8 border border-px border-gray-800 rounded-md cards overflow-hidden relative">
         <h2 class="text-xl font-bold">Front-end</h2>
-        <p class="mt-3">I can build interfaces with VueJS and TailwindCSS. I also master different UI framework such as
+        <p class="mt-3 tracking-wide leading-relaxed">I can build interfaces with VueJS and TailwindCSS. I also master
+          different UI framework such as
           Ant Design and Buefy. I also have some experience with ReactJS!</p>
         <img class="h-32 absolute -bottom-5 -right-5 opacity-25" src="./assets/img/js.png" alt="js">
       </div>
       <div class="bg-[#18181b] w-full p-8 border border-px border-gray-800 rounded-md cards overflow-hidden relative">
         <h2 class="text-xl font-bold">Back-end</h2>
-        <p class="mt-3">I have notions in back-end thanks to the studies I followed. I can build backend applications via
+        <p class="mt-3 tracking-wide leading-relaxed">I have notions in back-end thanks to the studies I followed. I can
+          build backend applications via
           Laravel and I also experiment on NestJS.</p>
         <img class="h-48 absolute -bottom-12 -right-10 opacity-25" src="./assets/img/php.png" alt="js">
       </div>
       <div class="bg-[#18181b] w-full p-8 border border-px border-gray-800 rounded-md cards overflow-hidden relative">
         <h2 class="text-xl font-bold">UI/UX Design</h2>
-        <p class="mt-3">I also have skills in UI/UX design. I use software such as Lunacy / Figma and I have also in my
+        <p class="mt-3 tracking-wide leading-relaxed">I also have skills in UI/UX design. I use software such as Lunacy /
+          Figma and I have also in my
           past used software such as Illustrator and Photoshop.</p>
         <img class="h-32 absolute -bottom-5 -right-5 opacity-25" src="./assets/img/figma.svg" alt="js">
       </div>
     </div>
+    <p class="text-3xl font-bold mt-72 mb-5">Experiences<span>.</span></p>
+    <div class="grid grid-cols-3 gap-10">
+      <Card>
+        <div class="flex gap-5 items-center">
+          <img class="h-10" src="./assets/img/company/apitech.png" alt="">
+          <div class="flex flex-col gap-1">
+            <p class="border-gray-800 text-sm tracking-widest">Mai 2022 to Jully 2023</p>
+            <p class="border-gray-800 text-lg font-bold">Intern fullstack developer</p>
+          </div>
+        </div>
+        <p class="my-3">
+          Creation and integration of web pages<br>
+          Maintenance of existing pages<br>
+          Collaboration on a design system
+        </p>
+      </Card>
+      <Card>
+        <div class="flex gap-5 items-center">
+          <img class="h-6" src="./assets/img/company/vinci.png" alt="">
+          <div class="flex flex-col gap-1">
+            <p class="border-gray-800 text-sm tracking-widest">Jully 2023 to Now</p>
+            <p class="border-gray-800 text-lg font-bold">Frontend developer</p>
+          </div>
+        </div>
+        <p class="my-3">
+          Made UI/UX for internal tools<br>
+        </p>
+      </Card>
+    </div>
   </div>
-</template>
+</template>s
 <script setup>
 import Navbar from './components/Navbar.vue'
+import Card from './components/Card.vue'
 import { onMounted } from 'vue';
 import gsap from 'gsap'
 

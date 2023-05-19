@@ -21,3 +21,7 @@ body {
     font-family: 'MontserratRegular';
     src: url("./assets/fonts/Montserrat-Regular.ttf");
 }
+
+img {
+    @apply pointer-events-none select-none;
+}
