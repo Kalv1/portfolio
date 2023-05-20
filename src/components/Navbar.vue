@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full text-white flex gap-20 justify-center items-center text-lg mt-14">
+    <div class="w-full text-white gap-20 justify-center items-center text-lg mt-14 hidden md:flex">
         <a href="#skills">
             <button class="relative group p-2 flex justify-center delay-200">
                 <p>Skills</p>
