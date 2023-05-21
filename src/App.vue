@@ -50,7 +50,6 @@
             <img class="h-16 md:h-20" src="./assets/img/techno/tailwind.png" alt="tailwind">
             <img class="h-16 md:h-20" src="./assets/img/techno/figma.svg" alt="figma">
             <img class="h-16 md:h-20" src="./assets/img/techno/git.png" alt="git">
-            <img class="h-16 md:h-20" src="./assets/img/techno/laravel.svg" alt="laravel">
           </div>
           <div class="flex items-center gap-40 slider pr-40">
             <img class="h-16 md:h-20" src="./assets/img/techno/vuejs.png" alt="vuejs">
@@ -60,7 +59,6 @@
             <img class="h-16 md:h-20" src="./assets/img/techno/tailwind.png" alt="tailwind">
             <img class="h-16 md:h-20" src="./assets/img/techno/figma.svg" alt="figma">
             <img class="h-16 md:h-20" src="./assets/img/techno/git.png" alt="git">
-            <img class="h-16 md:h-20" src="./assets/img/techno/laravel.svg" alt="laravel">
           </div>
           <div class="flex items-center gap-40 slider pr-40">
             <img class="h-16 md:h-20" src="./assets/img/techno/vuejs.png" alt="vuejs">
@@ -70,7 +68,6 @@
             <img class="h-16 md:h-20" src="./assets/img/techno/tailwind.png" alt="tailwind">
             <img class="h-16 md:h-20" src="./assets/img/techno/figma.svg" alt="figma">
             <img class="h-16 md:h-20" src="./assets/img/techno/git.png" alt="git">
-            <img class="h-16 md:h-20" src="./assets/img/techno/laravel.svg" alt="laravel">
           </div>
         </div>
       </div>
@@ -111,11 +108,20 @@
             <p class="border-gray-800 text-base md:text-lg font-bold">Intern fullstack developer</p>
           </div>
         </div>
-        <p class="my-3 tracking-wide leading-relaxed text-sm md:text-base">
+        <p class="my-5 tracking-wide leading-relaxed text-sm md:text-base">
           Creation and integration of web pages<br>
           Maintenance of existing pages<br>
           Collaboration on a design system
         </p>
+        <hr class="mb-3 border-gray-800 group-hover:border-gray-400 transition-all duration-200 ease-in">
+        <div class="flex items-center justify-end gap-3">
+          <img class="h-5 transition-all duration-500 group-hover:grayscale-0 grayscale" src="./assets/img/techno/js.png" alt="">
+          <img class="h-5 transition-all duration-500 group-hover:grayscale-0 grayscale" src="./assets/img/techno/nuxt.png" alt="">
+          <img class="h-5 transition-all duration-500 group-hover:grayscale-0 grayscale" src="./assets/img/techno/tailwind.png" alt="">
+          <img class="h-5 transition-all duration-500 group-hover:grayscale-0 grayscale" src="./assets/img/techno/git.png" alt="">
+          <img class="h-5 transition-all duration-500 group-hover:grayscale-0 grayscale" src="./assets/img/techno/figma.svg" alt="">
+          <img class="h-5 transition-all duration-500 group-hover:grayscale-0 grayscale" src="./assets/img/techno/vuex.png" alt="">
+        </div>
       </Card>
       <Card>
         <div class="flex gap-5 items-center">
@@ -125,11 +131,20 @@
             <p class="border-gray-800 text-base md:text-lg font-bold">Frontend developer</p>
           </div>
         </div>
-        <p class="my-3 tracking-wide leading-relaxed text-sm md:text-base">
+        <p class="my-5 tracking-wide leading-relaxed text-sm md:text-base">
           Made UI/UX for internal tools<br>
           Creation and integration of web pages<br>
           Learning 3D & working with DevOps tools
         </p>
+        <hr class="mb-3 border-gray-800 group-hover:border-gray-400 transition-all duration-200 ease-in">
+        <div class="flex items-center justify-end gap-3">
+          <img class="h-5 transition-all duration-500 group-hover:grayscale-0 grayscale" src="./assets/img/techno/js.png" alt="">
+          <img class="h-5 transition-all duration-500 group-hover:grayscale-0 grayscale" src="./assets/img/techno/nuxt.png" alt="">
+          <img class="h-5 transition-all duration-500 group-hover:grayscale-0 grayscale" src="./assets/img/techno/tailwind.png" alt="">
+          <img class="h-5 transition-all duration-500 group-hover:grayscale-0 grayscale" src="./assets/img/techno/git.png" alt="">
+          <img class="h-5 transition-all duration-500 group-hover:grayscale-0 grayscale" src="./assets/img/techno/pinia.svg" alt="">
+
+        </div>
       </Card>
     </div>
   </div>
