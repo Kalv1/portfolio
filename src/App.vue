@@ -2,35 +2,28 @@
   <img class="absolute -left-[800px] -top-[750px]" src="./assets/img/Rectangle.png" />
   <div class="container mx-auto relative text-white px-5">
     <Navbar />
-    <div class="my-16 md:my-72 flex justify-center px-8 md:px-16 lg:px-64">
+    <div class="my-16 md:my-72 flex justify-center px-8 md:px-16 lg:px-48">
       <div class="w-full flex justify-center gap-5 flex-col text-center">
         <h1 class="text-5xl md:text-7xl font-extrabold">Calvin <span
-            class="font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-[#77009F] to-[#00C3FF] bg-[length:400%_400%] block md:inline-block">LAMBERT</span>
+            class="font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#77009F] to-[#00C3FF] bg-[length:400%_400%] block md:inline-block">LAMBERT</span>
         </h1>
-        <p class="text-md md:text-2xl font-regular leading-relaxed">Hi! I am a 22 years old front-end developer mainly
+        <p class="text-md md:text-2xl font-regular leading-relaxed tracking-wide">Hi! I am a 22 years old front-end
+          developer mainly
           focused on
           VueJS & NuxtJS. I'm
           also interested in the world of 3D on the web and more specifically in THREEJS</p>
         <div class="flex justify-center items-center gap-4">
-          <a href="https://github.com/Kalv1">
-            <button class="links rounded-full bg-white p-2">
-              <img class="w-6 h-6" src="./assets/img/github.png" alt="github">
-            </button>
+          <a href="https://github.com/Kalv1" class="links rounded-full bg-white p-2" target="_blank">
+            <img class="w-6 h-6" src="./assets/img/github.png" alt="github">
           </a>
-          <a href="https://twitter.com/Calv1_">
-            <button class="links rounded-full bg-white p-2">
-              <img class="w-6 h-6" src="./assets/img/twitter.png" alt="github">
-            </button>
+          <a href="https://twitter.com/Calv1_" class="links rounded-full bg-white p-2" target="_blank">
+            <img class="w-6 h-6" src="./assets/img/twitter.png" alt="github">
           </a>
-          <a href="mailto:calvin.lambert@protonmail.com">
-            <button class="links rounded-full bg-white p-2">
-              <img class="w-6 h-6" src="./assets/img/email.png" alt="github">
-            </button>
+          <a href="mailto:calvin.lambert@protonmail.com" class="links rounded-full bg-white p-2" target="_blank">
+            <img class="w-6 h-6" src="./assets/img/email.png" alt="github">
           </a>
-          <a href="https://www.linkedin.com/in/calvin-lambert/">
-            <button class="links rounded-full bg-white p-2">
-              <img class="w-6 h-6" src="./assets/img/linkedIn.png" alt="github">
-            </button>
+          <a href="https://www.linkedin.com/in/calvin-lambert/" class="links rounded-full bg-white p-2" target="_blank">
+            <img class="w-6 h-6" src="./assets/img/linkedIn.png" alt="github">
           </a>
         </div>
       </div>
@@ -48,6 +41,7 @@
             <img class="h-16 md:h-20" src="./assets/img/techno/pinia.svg" alt="pinia">
             <img class="h-16 md:h-20" src="./assets/img/techno/vuex.png" alt="vuex">
             <img class="h-16 md:h-20" src="./assets/img/techno/tailwind.png" alt="tailwind">
+            <img class="h-16 md:h-20" src="./assets/img/techno/laravel.png" alt="laravel">
             <img class="h-16 md:h-20" src="./assets/img/techno/figma.svg" alt="figma">
             <img class="h-16 md:h-20" src="./assets/img/techno/git.png" alt="git">
           </div>
@@ -57,6 +51,7 @@
             <img class="h-16 md:h-20" src="./assets/img/techno/pinia.svg" alt="pinia">
             <img class="h-16 md:h-20" src="./assets/img/techno/vuex.png" alt="vuex">
             <img class="h-16 md:h-20" src="./assets/img/techno/tailwind.png" alt="tailwind">
+            <img class="h-16 md:h-20" src="./assets/img/techno/laravel.png" alt="laravel">
             <img class="h-16 md:h-20" src="./assets/img/techno/figma.svg" alt="figma">
             <img class="h-16 md:h-20" src="./assets/img/techno/git.png" alt="git">
           </div>
@@ -66,6 +61,7 @@
             <img class="h-16 md:h-20" src="./assets/img/techno/pinia.svg" alt="pinia">
             <img class="h-16 md:h-20" src="./assets/img/techno/vuex.png" alt="vuex">
             <img class="h-16 md:h-20" src="./assets/img/techno/tailwind.png" alt="tailwind">
+            <img class="h-16 md:h-20" src="./assets/img/techno/laravel.png" alt="laravel">
             <img class="h-16 md:h-20" src="./assets/img/techno/figma.svg" alt="figma">
             <img class="h-16 md:h-20" src="./assets/img/techno/git.png" alt="git">
           </div>
@@ -98,7 +94,7 @@
         <img class="h-32 absolute -bottom-5 -right-5 opacity-25" src="./assets/img/figma.svg" alt="js">
       </Card>
     </div>
-    <p class="text-3xl font-bold mt-16 md:mt-72 mb-5">Experiences<span>.</span></p>
+    <p class="text-3xl font-bold mt-16 md:mt-32 mb-5">Experiences</p>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
       <Card>
         <div class="flex gap-5 items-center">
@@ -115,12 +111,18 @@
         </p>
         <hr class="mb-3 border-gray-800 group-hover:border-gray-400 transition-all duration-200 ease-in">
         <div class="flex items-center justify-end gap-3">
-          <img class="h-5 transition-all duration-500 group-hover:grayscale-0 grayscale" src="./assets/img/techno/js.png" alt="">
-          <img class="h-5 transition-all duration-500 group-hover:grayscale-0 grayscale" src="./assets/img/techno/nuxt.png" alt="">
-          <img class="h-5 transition-all duration-500 group-hover:grayscale-0 grayscale" src="./assets/img/techno/tailwind.png" alt="">
-          <img class="h-5 transition-all duration-500 group-hover:grayscale-0 grayscale" src="./assets/img/techno/git.png" alt="">
-          <img class="h-5 transition-all duration-500 group-hover:grayscale-0 grayscale" src="./assets/img/techno/figma.svg" alt="">
-          <img class="h-5 transition-all duration-500 group-hover:grayscale-0 grayscale" src="./assets/img/techno/vuex.png" alt="">
+          <img class="h-5 transition-all duration-500 group-hover:grayscale-0 grayscale" src="./assets/img/techno/js.png"
+            alt="">
+          <img class="h-5 transition-all duration-500 group-hover:grayscale-0 grayscale"
+            src="./assets/img/techno/nuxt.png" alt="">
+          <img class="h-5 transition-all duration-500 group-hover:grayscale-0 grayscale"
+            src="./assets/img/techno/tailwind.png" alt="">
+          <img class="h-5 transition-all duration-500 group-hover:grayscale-0 grayscale" src="./assets/img/techno/git.png"
+            alt="">
+          <img class="h-5 transition-all duration-500 group-hover:grayscale-0 grayscale"
+            src="./assets/img/techno/figma.svg" alt="">
+          <img class="h-5 transition-all duration-500 group-hover:grayscale-0 grayscale"
+            src="./assets/img/techno/vuex.png" alt="">
         </div>
       </Card>
       <Card>
@@ -138,11 +140,16 @@
         </p>
         <hr class="mb-3 border-gray-800 group-hover:border-gray-400 transition-all duration-200 ease-in">
         <div class="flex items-center justify-end gap-3">
-          <img class="h-5 transition-all duration-500 group-hover:grayscale-0 grayscale" src="./assets/img/techno/js.png" alt="">
-          <img class="h-5 transition-all duration-500 group-hover:grayscale-0 grayscale" src="./assets/img/techno/nuxt.png" alt="">
-          <img class="h-5 transition-all duration-500 group-hover:grayscale-0 grayscale" src="./assets/img/techno/tailwind.png" alt="">
-          <img class="h-5 transition-all duration-500 group-hover:grayscale-0 grayscale" src="./assets/img/techno/git.png" alt="">
-          <img class="h-5 transition-all duration-500 group-hover:grayscale-0 grayscale" src="./assets/img/techno/pinia.svg" alt="">
+          <img class="h-5 transition-all duration-500 group-hover:grayscale-0 grayscale" src="./assets/img/techno/js.png"
+            alt="">
+          <img class="h-5 transition-all duration-500 group-hover:grayscale-0 grayscale"
+            src="./assets/img/techno/nuxt.png" alt="">
+          <img class="h-5 transition-all duration-500 group-hover:grayscale-0 grayscale"
+            src="./assets/img/techno/tailwind.png" alt="">
+          <img class="h-5 transition-all duration-500 group-hover:grayscale-0 grayscale" src="./assets/img/techno/git.png"
+            alt="">
+          <img class="h-5 transition-all duration-500 group-hover:grayscale-0 grayscale"
+            src="./assets/img/techno/pinia.svg" alt="">
 
         </div>
       </Card>

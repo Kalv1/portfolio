@@ -8,6 +8,7 @@ export default {
       fontFamily: {
         'sans': ['Montserrat', 'sans-serif'],
         'regular': ['MontserratRegular', 'sans-serif'],
+        'bold': ['MontserratBold', 'sans-serif']
       }
     },
   },
