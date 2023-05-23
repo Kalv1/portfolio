@@ -94,7 +94,7 @@
         <img class="h-32 absolute -bottom-5 -right-5 opacity-25" src="./assets/img/figma.svg" alt="js">
       </Card>
     </div>
-    <p class="text-3xl font-bold mt-16 md:mt-32 mb-5">Experiences</p>
+    <p id="experiences" class="text-3xl font-bold mt-16 md:mt-32 mb-5">Experiences</p>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
       <Card>
         <div class="flex gap-5 items-center">
@@ -161,8 +161,8 @@
   </div>
 </template>
 <script setup>
-import Navbar from './components/Navbar.vue'
-import Card from './components/Card.vue'
+import Navbar from '@/components/Navbar.vue'
+import Card from '@/components/Card.vue'
 import { onMounted } from 'vue';
 import gsap from 'gsap'
 
