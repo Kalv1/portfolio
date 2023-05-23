@@ -36,6 +36,7 @@
       <div class="w-full h-full overflow-hidden">
         <div class="flex w-[1800%]">
           <div class="flex items-center gap-40 slider pr-40">
+            <img class="h-16 md:h-20" src="./assets/img/techno/js.png" alt="js">
             <img class="h-16 md:h-20" src="./assets/img/techno/vuejs.png" alt="vuejs">
             <img class="h-16 md:h-20" src="./assets/img/techno/nuxt.png" alt="nuxt">
             <img class="h-16 md:h-20" src="./assets/img/techno/pinia.svg" alt="pinia">
@@ -46,6 +47,7 @@
             <img class="h-16 md:h-20" src="./assets/img/techno/git.png" alt="git">
           </div>
           <div class="flex items-center gap-40 slider pr-40">
+            <img class="h-16 md:h-20" src="./assets/img/techno/js.png" alt="js">
             <img class="h-16 md:h-20" src="./assets/img/techno/vuejs.png" alt="vuejs">
             <img class="h-16 md:h-20" src="./assets/img/techno/nuxt.png" alt="nuxt">
             <img class="h-16 md:h-20" src="./assets/img/techno/pinia.svg" alt="pinia">
@@ -56,6 +58,7 @@
             <img class="h-16 md:h-20" src="./assets/img/techno/git.png" alt="git">
           </div>
           <div class="flex items-center gap-40 slider pr-40">
+            <img class="h-16 md:h-20" src="./assets/img/techno/js.png" alt="js">
             <img class="h-16 md:h-20" src="./assets/img/techno/vuejs.png" alt="vuejs">
             <img class="h-16 md:h-20" src="./assets/img/techno/nuxt.png" alt="nuxt">
             <img class="h-16 md:h-20" src="./assets/img/techno/pinia.svg" alt="pinia">
@@ -75,7 +78,7 @@
           TailwindCSS. I also master
           different UI framework such as
           Ant Design and Buefy. I also have some experience with ReactJS!</p>
-        <img class="h-32 absolute -bottom-5 -right-5 opacity-25" src="./assets/img/js.png" alt="js">
+        <img class="h-32 absolute -bottom-5 -right-5 opacity-25" src="./assets/img/techno/nodejs.png" alt="js">
       </Card>
       <Card>
         <h2 class="text-lg md:text-xl font-bold">Back-end</h2>
@@ -83,7 +86,7 @@
           studies I followed. I can
           build backend applications via
           Laravel and I also experiment on NestJS.</p>
-        <img class="h-48 absolute -bottom-12 -right-10 opacity-25" src="./assets/img/php.png" alt="js">
+        <img class="h-48 absolute -bottom-12 -right-10 opacity-25" src="./assets/img/techno/php.png" alt="js">
       </Card>
       <Card>
         <h2 class="text-lg md:text-xl font-bold">UI/UX Design</h2>
@@ -91,7 +94,7 @@
           software such as Lunacy /
           Figma and I have also in my
           past used software such as Illustrator and Photoshop.</p>
-        <img class="h-32 absolute -bottom-5 -right-5 opacity-25" src="./assets/img/figma.svg" alt="js">
+        <img class="h-32 absolute -bottom-5 -right-5 opacity-25 grayscale" src="./assets/img/techno/figma.svg" alt="js">
       </Card>
     </div>
     <p id="experiences" class="text-3xl font-bold mt-16 md:mt-32 mb-5">Experiences</p>
@@ -201,38 +204,3 @@ onMounted(() => {
 })
 
 </script>
-
-<style scoped>
-.gradient {
-  -webkit-animation: gradient 7s ease infinite;
-  -moz-animation: gradient 7s ease infinite;
-  animation: gradient 7s ease infinite;
-}
-
-.slider {
-  -webkit-animation: slide 15s linear infinite;
-  -moz-animation: slide 15s linear infinite;
-  animation: slide 15s linear infinite;
-}
-
-
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-
-  50% {
-    background-position: 100% 50%;
-  }
-
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-@keyframes slide {
-  to {
-    transform: translateX(-100%);
-  }
-}
-</style>

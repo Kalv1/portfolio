@@ -25,3 +25,36 @@ body {
 img {
     @apply pointer-events-none select-none;
 }
+
+.gradient {
+    -webkit-animation: gradient 7s ease infinite;
+    -moz-animation: gradient 7s ease infinite;
+    animation: gradient 7s ease infinite;
+  }
+  
+  .slider {
+    -webkit-animation: slide 20s linear infinite;
+    -moz-animation: slide 20s linear infinite;
+    animation: slide 20s linear infinite;
+  }
+  
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+  
+    50% {
+      background-position: 100% 50%;
+    }
+  
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  @keyframes slide {
+    to {
+      transform: translateX(-100%);
+    }
+  }
