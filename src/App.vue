@@ -100,13 +100,15 @@
     <p id="experiences" class="text-3xl font-bold mt-16 md:mt-32 mb-5">Experiences</p>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
       <Card>
-        <div class="flex gap-5 items-center">
-          <img class="h-10" src="./assets/img/company/apitech.png" alt="">
-          <div class="flex flex-col gap-1">
-            <p class="border-gray-800 text-sm tracking-widest">Mai 2022 to Jully 2023</p>
-            <p class="border-gray-800 text-base md:text-lg font-bold">Intern fullstack developer</p>
+        <Popper arrow :hover="true" content="Apitech Solution" placement="bottom">
+          <div class="flex gap-5 items-center">
+            <img class="h-10" src="./assets/img/company/apitech.png" alt="Apitech Logo">
+            <div class="flex flex-col gap-1">
+              <p class="border-gray-800 text-sm tracking-widest">Mai 2022 to Jully 2023</p>
+              <p class="border-gray-800 text-base md:text-lg font-bold">Intern fullstack developer</p>
+            </div>
           </div>
-        </div>
+        </Popper>
         <p class="my-5 tracking-wide leading-relaxed text-sm md:text-base">
           Creation and integration of web pages<br>
           Maintenance of existing pages<br>
@@ -129,13 +131,15 @@
         </div>
       </Card>
       <Card>
-        <div class="flex gap-5 items-center">
-          <img class="h-6" src="./assets/img/company/vinci.png" alt="">
-          <div class="flex flex-col gap-1">
-            <p class="border-gray-800 text-sm tracking-widest">Jully 2023 to Now</p>
-            <p class="border-gray-800 text-base md:text-lg font-bold">Frontend developer</p>
+        <Popper arrow :hover="true" content="Axians C&S | Vinci Energies" placement="bottom">
+          <div class="flex gap-5 items-center">
+            <img class="h-6" src="./assets/img/company/vinci.png" alt="Vinci logo">
+            <div class="flex flex-col gap-1">
+              <p class="border-gray-800 text-sm tracking-widest">Jully 2023 to Now</p>
+              <p class="border-gray-800 text-base md:text-lg font-bold">Frontend developer</p>
+            </div>
           </div>
-        </div>
+        </Popper>
         <p class="my-5 tracking-wide leading-relaxed text-sm md:text-base">
           Made UI/UX for internal tools<br>
           Creation and integration of web pages<br>
