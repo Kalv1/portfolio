@@ -161,6 +161,23 @@
         </div>
       </Card>
     </div>
+    <p class="text-3xl font-bold mt-16 md:mt-32 mb-5">Projects</p>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+      <Card>
+        <div class="flex gap-5 items-center">
+          <img class="h-14" src="./assets/img/envn.png" alt="ENVLogo">
+          <div class="flex flex-col gap-1">
+            <p class="border-gray-800 text-sm tracking-widest">Nantes Veterinary School</p>
+            <p class="border-gray-800 text-base md:text-lg font-bold">Frontend developer</p>
+          </div>
+        </div>
+        <p class="my-5 tracking-wide leading-relaxed text-sm md:text-base">
+          Creation of a veterinary products store for the school's in-house associations. <br />
+          The site enables orders to be placed online, and the cooperative team to prepare orders and keep track of
+          purchase orders.
+        </p>
+      </Card>
+    </div>
   </div>
   <div class="h-[1px] bg-gray-800 mt-10" />
   <div class="py-6 md:py-10 container mx-auto bg-[#161616] text-white text-center text-sm md:text-base">
