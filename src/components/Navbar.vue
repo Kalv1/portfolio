@@ -10,7 +10,7 @@
             <div
                 class="w-full scale-x-0 group-hover:scale-x-100 h-px absolute bottom-0 transition ease-in bg-gradient-to-r from-gray-800 via-gray-400 to-gray-800" />
         </a>
-        <a href="Resume_LAMBERT_Calvin.pdf" class="relative group p-2 flex justify-center delay-200" target="_blank">
+        <a href="CV_NEW_LAMBERT_Calvin.pdf" class="relative group p-2 flex justify-center delay-200" target="_blank">
             <p>Resume</p>
             <div
                 class="w-full scale-x-0 group-hover:scale-x-100 h-px absolute bottom-0 transition ease-in bg-gradient-to-r from-gray-800 via-gray-400 to-gray-800" />

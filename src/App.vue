@@ -7,11 +7,7 @@
         <h1 class="text-5xl md:text-7xl font-extrabold">Calvin <span
             class="font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#77009F] to-[#00C3FF] bg-[length:400%_400%] block md:inline-block">LAMBERT</span>
         </h1>
-        <p class="text-md md:text-2xl font-regular leading-relaxed tracking-wide">Hi! I am a 22 years old front-end
-          developer mainly
-          focused on
-          VueJS & NuxtJS. I'm
-          also interested in the world of 3D on the web and more specifically in THREEJS</p>
+        <p class="text-md md:text-2xl font-regular leading-relaxed tracking-wide">Hi, I'm a 22-year-old front-end developer who focuses mainly on VueJS and NuxtJS. I'm also interested in React & Svelte.</p>
         <div class="flex justify-center items-center gap-4">
           <a href="https://github.com/Kalv1" class="links rounded-full bg-white p-2" target="_blank">
             <img class="w-6 h-6" src="./assets/img/github.png" alt="github">
@@ -28,49 +24,10 @@
         </div>
       </div>
     </div>
-    <div id="skills" class="my-32 md:my-12 h-26 md:h-36 relative z-[-1]">
-      <div
-        class="absolute top-0 right-0 h-full w-[20px] sm:w-[50px] md:w-[100px] lg:w-[200px] bg-gradient-to-l from-[#161616] via-[#161616]/60 to-transparent z-[1]" />
-      <div
-        class="absolute top-0 right-left-0 h-full w-[20px] sm:w-[50px] md:w-[100px] lg:w-[200px] bg-gradient-to-l to-[#161616] via-[#161616]/60 from-transparent z-[1]" />
-      <div class="w-full h-full overflow-hidden">
-        <div class="flex w-[1800%]">
-          <div class="flex items-center gap-40 slider pr-40">
-            <img class="h-16 md:h-20" src="./assets/img/techno/js.png" alt="js">
-            <img class="h-16 md:h-20" src="./assets/img/techno/vuejs.png" alt="vuejs">
-            <img class="h-16 md:h-20" src="./assets/img/techno/nuxt.png" alt="nuxt">
-            <img class="h-16 md:h-20" src="./assets/img/techno/pinia.svg" alt="pinia">
-            <img class="h-16 md:h-20" src="./assets/img/techno/vuex.png" alt="vuex">
-            <img class="h-16 md:h-20" src="./assets/img/techno/tailwind.png" alt="tailwind">
-            <img class="h-16 md:h-20" src="./assets/img/techno/laravel.png" alt="laravel">
-            <img class="h-16 md:h-20" src="./assets/img/techno/figma.svg" alt="figma">
-            <img class="h-16 md:h-20" src="./assets/img/techno/git.png" alt="git">
-          </div>
-          <div class="flex items-center gap-40 slider pr-40">
-            <img class="h-16 md:h-20" src="./assets/img/techno/js.png" alt="js">
-            <img class="h-16 md:h-20" src="./assets/img/techno/vuejs.png" alt="vuejs">
-            <img class="h-16 md:h-20" src="./assets/img/techno/nuxt.png" alt="nuxt">
-            <img class="h-16 md:h-20" src="./assets/img/techno/pinia.svg" alt="pinia">
-            <img class="h-16 md:h-20" src="./assets/img/techno/vuex.png" alt="vuex">
-            <img class="h-16 md:h-20" src="./assets/img/techno/tailwind.png" alt="tailwind">
-            <img class="h-16 md:h-20" src="./assets/img/techno/laravel.png" alt="laravel">
-            <img class="h-16 md:h-20" src="./assets/img/techno/figma.svg" alt="figma">
-            <img class="h-16 md:h-20" src="./assets/img/techno/git.png" alt="git">
-          </div>
-          <div class="flex items-center gap-40 slider pr-40">
-            <img class="h-16 md:h-20" src="./assets/img/techno/js.png" alt="js">
-            <img class="h-16 md:h-20" src="./assets/img/techno/vuejs.png" alt="vuejs">
-            <img class="h-16 md:h-20" src="./assets/img/techno/nuxt.png" alt="nuxt">
-            <img class="h-16 md:h-20" src="./assets/img/techno/pinia.svg" alt="pinia">
-            <img class="h-16 md:h-20" src="./assets/img/techno/vuex.png" alt="vuex">
-            <img class="h-16 md:h-20" src="./assets/img/techno/tailwind.png" alt="tailwind">
-            <img class="h-16 md:h-20" src="./assets/img/techno/laravel.png" alt="laravel">
-            <img class="h-16 md:h-20" src="./assets/img/techno/figma.svg" alt="figma">
-            <img class="h-16 md:h-20" src="./assets/img/techno/git.png" alt="git">
-          </div>
-        </div>
-      </div>
-    </div>
+    <!-- Slider part -->
+    <Slider/>
+
+    <!-- Skills part -->
     <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
       <Card>
         <h2 class="text-lg md:text-xl font-bold">Front-end</h2>
@@ -177,6 +134,18 @@
           purchase orders.
         </p>
       </Card>
+      <Card>
+        <div class="flex gap-5 items-center">
+          <img class="h-14" src="./assets/img/neptune.png" alt="NeptuneLogo">
+          <div class="flex flex-col gap-1">
+            <p class="border-gray-800 text-sm tracking-widest">Neptune</p>
+            <p class="border-gray-800 text-base md:text-lg font-bold">Frontend developer</p>
+          </div>
+        </div>
+        <p class="my-5 tracking-wide leading-relaxed text-sm md:text-base">
+          Creation of a tool for monitoring dependency and vulnerability linked to an image park. The tool is open source and uses different libraries such as Nuxt and Vue.
+        </p>
+      </Card>
     </div>
   </div>
   <div class="h-[1px] bg-gray-800 mt-10" />
@@ -187,6 +156,9 @@
 <script setup>
 import Navbar from '@/components/Navbar.vue'
 import Card from '@/components/Card.vue'
+import Slider from '@/components/Slider.vue'
+
+
 import { onMounted } from 'vue';
 import gsap from 'gsap'
 
