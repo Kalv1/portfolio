@@ -1,0 +1,33 @@
+{
+    "jobs": "Front-end developer",
+    "introduction": "Hi, I'm a 22-year-old front-end developer who focuses mainly on VueJS and NuxtJS. I'm also interested in React & Svelte.",
+    "skill_card": {
+        "front": "Front-end",
+        "frontdesc": "I can build interfaces with VueJS andTailwindCSS. I master different UI framework such as Ant Design and Buefy. I have some experience with ReactJS!",
+        "back": "Back-end",
+        "backdesc": "I have notions in back-end thanks to the studies I followed. I can build backend applications via Laravel and I also experiment on NestJS.",
+        "uiux": "UI/UX Design",
+        "uidesc": "I have skills in UI/UX design. I use software such as Lunacy / Figma and I have also in my past used software such as Illustrator and Photoshop."
+    },
+    "experience": "Experiences",
+    "apitech" : {
+        "date": "April 2022 to July 2022",
+        "job": "Intern fullstack developer",
+        "desc1": "Creation and integration of web pages",
+        "desc2": "Maintenance of existing pages",
+        "desc3": "Collaborating on a design system"
+    },
+    "axians": {
+        "date": "July 2022 to Now",
+        "desc1": "Made UI/UX for internal tools",
+        "desc2": "Creation and integration of web pages",
+        "desc3": "Learning ThreeJS & working with DevOps tools"
+    },
+    "projects": "Projects",
+    "envn": "Nantes Veterinary School",
+    "envn_desc": "Creation of a veterinary products store for the school's in-house associations.",
+    "envn_desc2": "The site enables orders to be placed online, and the cooperative team to prepare orders and keep track of purchase orders.",
+    "neptune": "Neptune",
+    "neptune_desc": "Creation of a tool for monitoring dependency and vulnerability linked to an image park. The tool is open source and uses different libraries such as Nuxt and Vue.",
+    "lang": "French"
+}
