@@ -32,9 +32,9 @@
       <Card>
         <h2 class="text-lg md:text-xl font-bold">Front-end</h2>
         <p class="mt-3 text-sm md:text-base tracking-wide leading-relaxed">I can build interfaces with VueJS and
-          TailwindCSS. I also master
+          TailwindCSS. I master
           different UI framework such as
-          Ant Design and Buefy. I also have some experience with ReactJS!</p>
+          Ant Design and Buefy. I have some experience with ReactJS!</p>
         <img class="h-32 absolute -bottom-5 -right-5 opacity-25" src="./assets/img/techno/nodejs.png" alt="js">
       </Card>
       <Card>
@@ -47,7 +47,7 @@
       </Card>
       <Card>
         <h2 class="text-lg md:text-xl font-bold">UI/UX Design</h2>
-        <p class="mt-3 text-sm md:text-base tracking-wide leading-relaxed">I also have skills in UI/UX design. I use
+        <p class="mt-3 text-sm md:text-base tracking-wide leading-relaxed">I have skills in UI/UX design. I use
           software such as Lunacy /
           Figma and I have also in my
           past used software such as Illustrator and Photoshop.</p>
@@ -61,7 +61,7 @@
           <div class="flex gap-5 items-center">
             <img class="h-10" src="./assets/img/company/apitech.png" alt="Apitech Logo">
             <div class="flex flex-col gap-1">
-              <p class="border-gray-800 text-sm tracking-widest">Mai 2022 to Jully 2023</p>
+              <p class="border-gray-800 text-sm tracking-widest">April 2022 to July 2022</p>
               <p class="border-gray-800 text-base md:text-lg font-bold">Intern fullstack developer</p>
             </div>
           </div>
@@ -92,7 +92,7 @@
           <div class="flex gap-5 items-center">
             <img class="h-6" src="./assets/img/company/vinci.png" alt="Vinci logo">
             <div class="flex flex-col gap-1">
-              <p class="border-gray-800 text-sm tracking-widest">Jully 2023 to Now</p>
+              <p class="border-gray-800 text-sm tracking-widest">July 2022 to Now</p>
               <p class="border-gray-800 text-base md:text-lg font-bold">Frontend developer</p>
             </div>
           </div>
