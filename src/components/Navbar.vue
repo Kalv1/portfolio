@@ -3,17 +3,17 @@
         <div class="w-1/5"></div>
         <div class="flex gap-20 w-3/5 justify-center">
             <a href="#skills" class="relative group p-2 flex justify-center delay-200">
-                <p>Skills</p>
+                <p>{{ $t('skills') }}</p>
                 <div
                     class="w-full scale-x-0 group-hover:scale-x-100 h-px absolute bottom-0 transition ease-in bg-gradient-to-r from-gray-800 via-gray-400 to-gray-800" />
             </a>
             <a href="#experiences" class="relative group p-2 flex justify-center delay-200">
-                <p>Experiences</p>
+                <p>{{ $t('experiences') }}</p>
                 <div
                     class="w-full scale-x-0 group-hover:scale-x-100 h-px absolute bottom-0 transition ease-in bg-gradient-to-r from-gray-800 via-gray-400 to-gray-800" />
             </a>
             <a href="CV_NEW_LAMBERT_Calvin.pdf" class="relative group p-2 flex justify-center delay-200" target="_blank">
-                <p>Resume</p>
+                <p>{{ $t('resume')}}</p>
                 <div
                     class="w-full scale-x-0 group-hover:scale-x-100 h-px absolute bottom-0 transition ease-in bg-gradient-to-r from-gray-800 via-gray-400 to-gray-800" />
             </a>

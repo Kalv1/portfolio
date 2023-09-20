@@ -42,7 +42,7 @@
         <img class="h-32 absolute -bottom-5 -right-5 opacity-25 grayscale" src="./assets/img/techno/figma.svg" alt="js">
       </Card>
     </div>
-    <p id="experiences" class="text-3xl font-bold mt-16 md:mt-32 mb-5">{{ $t('experience') }}</p>
+    <p id="experiences" class="text-3xl font-bold mt-16 md:mt-32 mb-5">{{ $t('experiences') }}</p>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
       <Card>
         <Popper arrow :hover="true" content="Apitech Solution" placement="bottom">

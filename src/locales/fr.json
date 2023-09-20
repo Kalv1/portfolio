@@ -1,21 +1,23 @@
 {
     "jobs": "Développeur Front-end",
     "introduction": "Salut ! Je suis un jeune développeur de 22 ans passionné par le développement front-end en particulier sur VueJS et NuxtJS. Je suis également interessé par d'autre framework tel que React et Svelte !",
+    "skills": "Compétences",
+    "resume": "CV",
     "skill_card": {
         "front": "Front-end",
         "frontdesc": "Je peux créer des interfaces à l'aide de VueJS et Tailwind. Je maitrisé également quelque framework UI comme Buefy et Ant Design. J'ai également des notions sur le framework ReactJS ",
         "back": "Back-end",
-        "backdesc": "J'ai quelque compétence en développement plus particulièrement sur Laravel ou je peux construire des petites API REST. J'ai également pu m'essayer à NestJS",
+        "backdesc": "J'ai quelque compétence en développement back-end plus particulièrement sur Laravel ou je peux construire des petites API REST. J'ai également pu m'essayer à NestJS",
         "uiux": "UI/UX Design",
         "uidesc": "J'ai des compétence en UI/UX design. Pour cela j'utilise Figma / Lunacy pour créer des maquettes et des prototypes. J'ai également des notions sur Photoshop et Adobe Illustrator"
     },
-    "experience": "Expériences",
+    "experiences": "Expériences",
     "apitech" : {
         "date": "Avril 2022 à Juillet 2022",
         "job": "Stagiaire développeur fullstack",
         "desc1": "Création est intégration de page",
         "desc2": "Maintenance de l'application existante",
-        "desc3": "Collaboration sur de l'UI/UX design"
+        "desc3": "Collaboration sur de l'UI/UX design avec le designer de l'entreprise"
     },
     "axians": {
         "date": "Juillet 2022 à Maintenant",

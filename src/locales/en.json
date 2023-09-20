@@ -1,6 +1,8 @@
 {
     "jobs": "Front-end developer",
     "introduction": "Hi, I'm a 22-year-old front-end developer who focuses mainly on VueJS and NuxtJS. I'm also interested in React & Svelte.",
+    "skills": "Skills",
+    "resume": "Resume",
     "skill_card": {
         "front": "Front-end",
         "frontdesc": "I can build interfaces with VueJS andTailwindCSS. I master different UI framework such as Ant Design and Buefy. I have some experience with ReactJS!",
@@ -9,7 +11,7 @@
         "uiux": "UI/UX Design",
         "uidesc": "I have skills in UI/UX design. I use software such as Lunacy / Figma and I have also in my past used software such as Illustrator and Photoshop."
     },
-    "experience": "Experiences",
+    "experiences": "Experiences",
     "apitech" : {
         "date": "April 2022 to July 2022",
         "job": "Intern fullstack developer",
